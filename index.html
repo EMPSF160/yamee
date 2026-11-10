@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LUME Advisory — Minimalist Editorial & Creative Strategy Consulting. Architecting enduring brands, high-velocity operating models, and transformative enterprise value.">
+  <title>LUME Advisory | Creative Strategy & Enterprise Architecture</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23191715'/><circle cx='50' cy='50' r='24' fill='%23F8D9B5'/></svg>">
+
+  <!-- High-Performance Typography Stacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Design System -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Custom Soft Luxury Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-follower"></div>
+
+  <!-- Minimalist Header & Navigation -->
+  <header class="lume-header">
+    <div class="container">
+      <nav class="lume-navbar">
+        <!-- Left-Aligned Brand Logo -->
+        <a href="index.html" class="brand-logo" aria-label="LUME Advisory Home">
+          <div class="brand-text">
+            LUME<span class="dot">.</span>
+            <span class="brand-sub">Creative Strategy</span>
+          </div>
+        </a>
+
+        <!-- Centered Navigation -->
+        <ul class="desktop-nav">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="how-we-work.html" class="nav-link">How We Work</a></li>
+          <li><a href="careers.html" class="nav-link">Careers</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Right-Aligned Pastel CTA -->
+        <div class="header-actions">
+          <a href="contact.html" class="btn-lume btn-lume-primary">
+            <span>Initiate Advisory</span>
+            <i data-lucide="arrow-up-right" class="btn-icon"></i>
+          </a>
+        </div>
+
+        <!-- Hamburger Button (Mobile / Tablet <= 1024px) -->
+        <button class="hamburger-btn" type="button" aria-label="Toggle navigation drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom border-warm">
+        <span class="editorial-badge mb-0"><span class="badge-dot"></span> Studio Index</span>
+        <span class="font-mono text-muted">2027 ED.</span>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html" class="active"><span>Home</span> <span class="nav-num">01</span></a></li>
+        <li><a href="about.html"><span>About Us</span> <span class="nav-num">02</span></a></li>
+        <li><a href="services.html"><span>Services</span> <span class="nav-num">03</span></a></li>
+        <li><a href="how-we-work.html"><span>How We Work</span> <span class="nav-num">04</span></a></li>
+        <li><a href="careers.html"><span>Careers</span> <span class="nav-num">05</span></a></li>
+        <li><a href="contact.html"><span>Contact</span> <span class="nav-num">06</span></a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav-footer">
+      <div class="d-flex flex-column gap-3 mb-4">
+        <a href="contact.html" class="btn-lume btn-lume-primary w-100 justify-content-center">
+          <span>Initiate Advisory</span>
+          <i data-lucide="arrow-up-right" class="btn-icon"></i>
+        </a>
+        <a href="services.html" class="btn-lume btn-lume-outline w-100 justify-content-center">
+          <span>Practice Areas</span>
+        </a>
+      </div>
+      <p class="font-mono small text-muted mb-0">ZURICH • NEW YORK • TOKYO</p>
+    </div>
+  </aside>
+
+  <!-- Main Content Container -->
+  <main>
+
+    <!-- ==========================================================================
+         HERO SECTION: Split Layout (Large Text Panel + Visual 3D Panel)
+         ========================================================================== -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Content Panel (Editorial Text Panel) -->
+          <div class="hero-panel-text">
+            <div>
+              <div class="editorial-badge">
+                <span class="badge-dot"></span> Global Creative Advisory • 2027 Edition
+              </div>
+              <h1 class="hero-title">
+                Where visionary ambition meets <em>disciplined craft</em>.
+              </h1>
+              <p class="hero-lead">
+                We partner with market leaders and audacious founders to architect enduring brand identity, high-velocity operating models, and transformative enterprise valuation.
+              </p>
+              <div class="hero-actions">
+                <a href="contact.html" class="btn-lume btn-lume-primary">
+                  <span>Initiate Advisory</span>
+                  <i data-lucide="arrow-up-right" class="btn-icon"></i>
+                </a>
+                <a href="services.html" class="btn-lume btn-lume-outline">
+                  <span>Explore Practice Areas</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Footer Meta inside Panel -->
+            <div class="hero-meta-footer">
+              <div class="client-avatars-group">
+                <div class="avatar-stack">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Executive Partner">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Executive Partner">
+                  <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Executive Partner">
+                </div>
+                <div class="client-stat-text">
+                  <strong>Senior Partner-Led Engagements</strong>
+                  <span>Zero junior handoffs. Bespoke executive counsel.</span>
+                </div>
+              </div>
+              <div class="font-mono small text-muted">
+                PARIS • ZURICH • NYC
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Split Hero Visual Panel (Three.js 3D Abstract Sculpture) -->
+          <div class="hero-panel-visual">
+            <!-- Three.js Canvas Mount Point -->
+            <div id="three-canvas-container"></div>
+
+            <!-- Editorial Photography Layer Background -->
+            <img class="hero-bg-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Modern Minimalist Architecture">
+
+            <!-- Floating Editorial Glass Badge -->
+            <div class="hero-visual-badge">
+              <div class="hero-visual-badge-text">
+                <h4>Sculptural Clarity</h4>
+                <p>Interactive 3D Abstract Architecture</p>
+              </div>
+              <div class="hero-visual-pill">
+                FIG. 01 / FORM
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         MANIFESTO BANNER SECTION
+         ========================================================================== -->
+    <section class="py-4">
+      <div class="container">
+        <div class="manifesto-banner">
+          <div class="editorial-badge badge-peach">
+            <span class="badge-dot"></span> The LUME Philosophy
+          </div>
+          <blockquote class="manifesto-quote">
+            "We reject the commodification of modern strategy. Transformative counsel is neither a template nor an echo chamber—it is the rare collision of <em>aesthetic conviction</em> and <em>mathematical rigor</em>."
+          </blockquote>
+          
+          <div class="manifesto-stats-row">
+            <div class="manifesto-stat-item">
+              <h3>$14.8B</h3>
+              <p>Cumulative Client Enterprise Value Generated</p>
+            </div>
+            <div class="manifesto-stat-item">
+              <h3>96%</h3>
+              <p>Senior Executive Multi-Year Retention Rate</p>
+            </div>
+            <div class="manifesto-stat-item">
+              <h3>34</h3>
+              <p>International Design & Strategic Accolades</p>
+            </div>
+            <div class="manifesto-stat-item">
+              <h3>8 wks</h3>
+              <p>Median Velocity to Validated Market Deployment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CORE PRACTICE AREAS (Asymmetrical Editorial Grid)
+         ========================================================================== -->
+    <section class="py-editorial">
+      <div class="container">
+        
+        <div class="section-header d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end mb-5">
+          <div>
+            <div class="editorial-badge">
+              <span class="badge-dot"></span> Core Disciplines
+            </div>
+            <h2 class="section-headline">
+              Crafted advisory for an <em>inflection era</em>.
+            </h2>
+          </div>
+          <p class="section-lead mb-0">
+            Four specialized practice groups operating as an integrated creative intelligence cell for global enterprises.
+          </p>
+        </div>
+
+        <div class="practice-grid">
+          
+          <!-- Practice 01 -->
+          <div class="practice-card">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="practice-card-num">01 / DISCIPLINE</span>
+                <div class="practice-card-icon">
+                  <i data-lucide="compass" style="width:22px; height:22px;"></i>
+                </div>
+              </div>
+              <h3>Strategic Market Positioning</h3>
+              <p>
+                Unearthing pristine whitespace where your organization commands structural pricing power and unassailable authority.
+              </p>
+              <ul class="practice-card-deliverables">
+                <li>Competitive Moat Identification</li>
+                <li>Category Creation Architecture</li>
+                <li>Executive Valuation Narrative</li>
+                <li>Go-To-Market Precision Blueprint</li>
+              </ul>
+            </div>
+            <a href="services.html" class="practice-card-link">
+              <span>Explore Practice</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+
+          <!-- Practice 02 -->
+          <div class="practice-card">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="practice-card-num">02 / DISCIPLINE</span>
+                <div class="practice-card-icon">
+                  <i data-lucide="layers" style="width:22px; height:22px;"></i>
+                </div>
+              </div>
+              <h3>Brand & Creative Architecture</h3>
+              <p>
+                Synthesizing high-fashion editorial aesthetics with enterprise-grade identity systems that elevate institutional perception.
+              </p>
+              <ul class="practice-card-deliverables">
+                <li>Visual Identity & Design Systems</li>
+                <li>Editorial Editorial Guidelines</li>
+                <li>Executive Leadership Voice</li>
+                <li>Multi-Sensory Brand Touchpoints</li>
+              </ul>
+            </div>
+            <a href="services.html" class="practice-card-link">
+              <span>Explore Practice</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+
+          <!-- Practice 03 -->
+          <div class="practice-card">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="practice-card-num">03 / DISCIPLINE</span>
+                <div class="practice-card-icon">
+                  <i data-lucide="git-merge" style="width:22px; height:22px;"></i>
+                </div>
+              </div>
+              <h3>Organizational Agility & Flow</h3>
+              <p>
+                Redesigning decision architectures, executive councils, and operating rhythms to eliminate friction in scaled institutions.
+              </p>
+              <ul class="practice-card-deliverables">
+                <li>Decision Rights & Governance</li>
+                <li>Talent Density Engineering</li>
+                <li>Cross-Functional Pod Design</li>
+                <li>Executive Succession Strategy</li>
+              </ul>
+            </div>
+            <a href="services.html" class="practice-card-link">
+              <span>Explore Practice</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+
+          <!-- Practice 04 -->
+          <div class="practice-card">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="practice-card-num">04 / DISCIPLINE</span>
+                <div class="practice-card-icon">
+                  <i data-lucide="sparkles" style="width:22px; height:22px;"></i>
+                </div>
+              </div>
+              <h3>Digital Experience & Future Products</h3>
+              <p>
+                Translating corporate strategy into tactile digital interfaces, bespoke enterprise tools, and next-generation software flagships.
+              </p>
+              <ul class="practice-card-deliverables">
+                <li>Bespoke Web & App Flagships</li>
+                <li>Spatial & Ambient Interface Design</li>
+                <li>Product-Led Growth Architecture</li>
+                <li>Enterprise Design Systems</li>
+              </ul>
+            </div>
+            <a href="services.html" class="practice-card-link">
+              <span>Explore Practice</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+
+          <!-- Practice 05 -->
+          <div class="practice-card">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="practice-card-num">05 / DISCIPLINE</span>
+                <div class="practice-card-icon">
+                  <i data-lucide="briefcase" style="width:22px; height:22px;"></i>
+                </div>
+              </div>
+              <h3>M&A Integration & Capital Narrative</h3>
+              <p>
+                Harmonizing post-merger cultures, orchestrating investor day narratives, and defending multi-billion dollar multiples.
+              </p>
+              <ul class="practice-card-deliverables">
+                <li>Post-Merger Brand Integration</li>
+                <li>Investor Deck & Roadshow Direction</li>
+                <li>Synergy Acceleration Protocols</li>
+                <li>Cultural Integration Playbooks</li>
+              </ul>
+            </div>
+            <a href="services.html" class="practice-card-link">
+              <span>Explore Practice</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+
+          <!-- Practice 06 (Highlight Pastel Panel) -->
+          <div class="practice-card" style="background: var(--color-peach-light); border-color: var(--color-pastel-peach);">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="practice-card-num">06 / BESPOKE</span>
+                <div class="practice-card-icon" style="background: var(--color-white);">
+                  <i data-lucide="shield-check" style="width:22px; height:22px;"></i>
+                </div>
+              </div>
+              <h3>Retained Executive Advisory Council</h3>
+              <p>
+                An intimate, confidential sounding board for CEOs and Board Chairs navigating critical inflection points and board transitions.
+              </p>
+              <ul class="practice-card-deliverables">
+                <li>Direct Senior Partner Availability</li>
+                <li>Quarterly Strategic Review Sprints</li>
+                <li>Crisis & Reputation Architecture</li>
+                <li>Confidential Peer Benchmarking</li>
+              </ul>
+            </div>
+            <a href="contact.html" class="practice-card-link">
+              <span>Request Council Access</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SELECTED CASE STUDIES (Split Rounded Editorial Cards)
+         ========================================================================== -->
+    <section class="py-editorial" style="background-color: var(--color-warm-sand);">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="editorial-badge">
+            <span class="badge-dot"></span> Selected Engagements
+          </div>
+          <h2 class="section-headline">
+            Case studies in <em>institutional distinction</em>.
+          </h2>
+          <p class="section-lead">
+            A curated record of strategic advisory engagements where rigorous creative direction unlocked unprecedented enterprise valuation.
+          </p>
+        </div>
+
+        <!-- Case 01: Split Card -->
+        <article class="case-study-split-card">
+          <div class="case-study-content">
+            <div>
+              <div class="case-study-tag-row">
+                <span class="case-tag">PRIVATE EQUITY</span>
+                <span class="case-tag">ZURICH & LONDON</span>
+                <span class="case-tag">2026</span>
+              </div>
+              <h3 class="case-study-title">
+                Vanderbilt Capital — Institutional Re-Architecture & $5.2B Fund Genesis
+              </h3>
+              <p class="case-study-summary">
+                Redefined a premier multi-asset European alternative investment firm. We unified 14 disparate portfolio brands into a singular, minimalist editorial masterbrand that oversubscribed their inaugural decarbonization infrastructure fund by 140%.
+              </p>
+            </div>
+
+            <div>
+              <div class="case-study-metrics">
+                <div class="metric-item">
+                  <strong>$5.2B</strong>
+                  <span>Capital Raised</span>
+                </div>
+                <div class="metric-item">
+                  <strong>140%</strong>
+                  <span>Oversubscription</span>
+                </div>
+                <div class="metric-item">
+                  <strong>14 wks</strong>
+                  <span>Execution Window</span>
+                </div>
+              </div>
+              <a href="contact.html" class="btn-lume btn-lume-outline">
+                <span>View Full Case Study</span>
+                <i data-lucide="arrow-up-right" class="btn-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="case-study-img-wrap">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80" alt="Vanderbilt Capital Architecture">
+          </div>
+        </article>
+
+        <!-- Case 02: Reverse Split Card -->
+        <article class="case-study-split-card reverse">
+          <div class="case-study-content">
+            <div>
+              <div class="case-study-tag-row">
+                <span class="case-tag">HEALTHCARE & AI</span>
+                <span class="case-tag">BOSTON & BASEL</span>
+                <span class="case-tag">2026</span>
+              </div>
+              <h3 class="case-study-title">
+                Aura Bio-Systems — Category Redefinition & Global Digital Flagship
+              </h3>
+              <p class="case-study-summary">
+                Positioned Aura as the uncontested global pioneer in predictive genomic therapeutics. Engineered an editorial web experience and brand system that guided their successful dual-listing on the SIX Swiss Exchange and NASDAQ.
+              </p>
+            </div>
+
+            <div>
+              <div class="case-study-metrics">
+                <div class="metric-item">
+                  <strong>$3.8B</strong>
+                  <span>Dual IPO Valuation</span>
+                </div>
+                <div class="metric-item">
+                  <strong>4.8x</strong>
+                  <span>Inbound Inquiries</span>
+                </div>
+                <div class="metric-item">
+                  <strong>300+</strong>
+                  <span>Pharma Integrations</span>
+                </div>
+              </div>
+              <a href="contact.html" class="btn-lume btn-lume-outline">
+                <span>View Full Case Study</span>
+                <i data-lucide="arrow-up-right" class="btn-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="case-study-img-wrap">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80" alt="Aura Bio-Systems Laboratory">
+          </div>
+        </article>
+
+        <!-- Case 03: Split Card -->
+        <article class="case-study-split-card">
+          <div class="case-study-content">
+            <div>
+              <div class="case-study-tag-row">
+                <span class="case-tag">LUXURY MOBILITY</span>
+                <span class="case-tag">STUTTGART & TOKYO</span>
+                <span class="case-tag">2027</span>
+              </div>
+              <h3 class="case-study-title">
+                Monolith Motors — Flagship EV Division & Spatial Retail Architecture
+              </h3>
+              <p class="case-study-summary">
+                Crafted the launch narrative, digital configuration salon, and architectural retail guidelines for Monolith's bespoke ultra-luxury electric flagship, generating 12,000 reservation deposits prior to formal physical unveiling.
+              </p>
+            </div>
+
+            <div>
+              <div class="case-study-metrics">
+                <div class="metric-item">
+                  <strong>12,000</strong>
+                  <span>Pre-Orders Placed</span>
+                </div>
+                <div class="metric-item">
+                  <strong>$1.9B</strong>
+                  <span>Order Pipeline</span>
+                </div>
+                <div class="metric-item">
+                  <strong>#1</strong>
+                  <span>Luxury Car of 2027</span>
+                </div>
+              </div>
+              <a href="contact.html" class="btn-lume btn-lume-outline">
+                <span>View Full Case Study</span>
+                <i data-lucide="arrow-up-right" class="btn-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="case-study-img-wrap">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80" alt="Monolith Motors Luxury Vehicle">
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EXECUTIVE TESTIMONIALS (Swiper Slider with Editorial Aesthetic)
+         ========================================================================== -->
+    <section class="py-editorial">
+      <div class="container">
+        
+        <div class="testimonial-panel">
+          <div class="editorial-badge badge-peach">
+            <span class="badge-dot"></span> Executive Perspectives
+          </div>
+
+          <!-- Swiper Container -->
+          <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+              
+              <!-- Slide 01 -->
+              <div class="swiper-slide">
+                <div class="testimonial-quote-icon">“</div>
+                <p class="testimonial-body">
+                  LUME operates at a standard of intellectual rigor and aesthetic clarity that traditional management consultancies cannot fathom. They transformed our $5B firm from an incumbent to the defining category authority.
+                </p>
+                <div class="testimonial-author-row">
+                  <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=140&q=80" alt="Eleanor Vance">
+                  <div class="testimonial-author-info">
+                    <h4>Eleanor Vance</h4>
+                    <p>Managing Director, Vanderbilt Capital Group • Zurich</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 02 -->
+              <div class="swiper-slide">
+                <div class="testimonial-quote-icon">“</div>
+                <p class="testimonial-body">
+                  Most strategic advisors present thick slide decks that collect digital dust. LUME built us living operating systems and an editorial brand architecture that directly closed our dual-listing at a 30% premium.
+                </p>
+                <div class="testimonial-author-row">
+                  <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=140&q=80" alt="Dr. Henrik Lindqvist">
+                  <div class="testimonial-author-info">
+                    <h4>Dr. Henrik Lindqvist</h4>
+                    <p>Chief Executive Officer, Aura Bio-Systems • Basel</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 03 -->
+              <div class="swiper-slide">
+                <div class="testimonial-quote-icon">“</div>
+                <p class="testimonial-body">
+                  Their ability to blend spatial architecture, digital fluency, and boardroom strategy is completely singular. In twenty years of executive leadership, I have never experienced a more potent partnership.
+                </p>
+                <div class="testimonial-author-row">
+                  <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=140&q=80" alt="Sora Takahashi">
+                  <div class="testimonial-author-info">
+                    <h4>Sora Takahashi</h4>
+                    <p>Executive Vice President, Monolith Luxury Mobility • Tokyo</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Swiper Custom Bullets -->
+            <div class="swiper-pagination mt-5 position-relative"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EDITORIAL CTA BANNER (Pastel Peach & Warm Ivory)
+         ========================================================================== -->
+    <section class="lume-cta-section">
+      <div class="container">
+        <div class="lume-cta-card">
+          <div>
+            <div class="editorial-badge">
+              <span class="badge-dot"></span> Confidential Advisory
+            </div>
+            <h2>
+              Ready to architect your enterprise's <em>defining chapter</em>?
+            </h2>
+            <p>
+              We accept a limited roster of twelve global advisory engagements per fiscal year. Connect directly with our Senior Managing Partners to explore collaboration.
+            </p>
+          </div>
+          <div class="lume-cta-card-actions">
+            <a href="contact.html" class="btn-lume btn-lume-dark w-100 justify-content-center">
+              <span>Initiate Executive Consultation</span>
+              <i data-lucide="arrow-up-right" class="btn-icon"></i>
+            </a>
+            <a href="services.html" class="btn-lume btn-lume-outline w-100 justify-content-center">
+              <span>Review Practice Catalog</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       MINIMALIST EDITORIAL FOOTER
+       ========================================================================== -->
+  <footer class="lume-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <div class="brand-text mb-3">
+            LUME<span class="dot">.</span>
+          </div>
+          <p>
+            Minimalist editorial advisory and enterprise strategy consulting. Architecting enduring distinction for world-leading institutions.
+          </p>
+          <div class="font-mono small text-muted">
+            SWISS PRIVACY STANDARDS • EST. 2021
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-col">
+          <h5>Index</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Practice Areas</a></li>
+            <li><a href="how-we-work.html">How We Work</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Global Studios -->
+        <div class="footer-col">
+          <h5>Studios</h5>
+          <ul class="footer-links">
+            <li><a href="contact.html">Zurich — Bahnhofstrasse 42</a></li>
+            <li><a href="contact.html">New York — 432 Park Avenue</a></li>
+            <li><a href="contact.html">London — 10 Berkeley Square</a></li>
+            <li><a href="contact.html">Tokyo — Ginza Six Tower</a></li>
+          </ul>
+        </div>
+
+        <!-- Dispatch / Newsletter -->
+        <div class="footer-col footer-newsletter">
+          <h5>The LUME Journal</h5>
+          <p>
+            Bi-monthly perspectives on high-stakes strategy, creative direction, and valuation design.
+          </p>
+          <form class="footer-newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to The LUME Journal with distinction.');">
+            <input type="email" placeholder="executive@domain.com" required>
+            <button type="submit" class="btn-lume btn-lume-primary" style="padding: 10px 18px;">
+              <i data-lucide="arrow-right" class="btn-icon"></i>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          © 2027 LUME Advisory Group AG. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="contact.html">Privacy Protocol</a>
+          <a href="contact.html">Governance & Security</a>
+          <a href="contact.html">Client Portal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top -->
+  <button class="back-to-top-btn" type="button" aria-label="Back to top">
+    <i data-lucide="arrow-up" style="width: 18px; height: 18px;"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/three-scene.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/forms.js"></script>
+</body>
+</html>

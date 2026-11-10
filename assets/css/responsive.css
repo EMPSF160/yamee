@@ -1,0 +1,377 @@
+/* ==========================================================================
+   LUME ADVISORY – RESPONSIVE STYLES
+   Breakpoints: 360px, 480px, 768px, 1024px, 1440px, 1920px+
+   ========================================================================== */
+
+/* Ultra-wide Displays (>= 1920px) */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+
+  .hero-title {
+    font-size: 6rem;
+  }
+
+  .about-headline-huge {
+    font-size: 6rem;
+  }
+
+  .section-headline {
+    font-size: 4.5rem;
+  }
+}
+
+/* Large Desktop (1440px - 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .container {
+    max-width: 1340px;
+  }
+}
+
+/* Standard Desktop (1025px - 1399px) */
+@media (max-width: 1399px) {
+  .hero-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 24px;
+  }
+
+  .hero-panel-text {
+    padding: 48px 40px;
+  }
+
+  .about-collage-grid {
+    grid-template-columns: 1fr 1.2fr 0.9fr;
+    gap: 20px;
+  }
+
+  .services-layout-split {
+    grid-template-columns: 280px 1fr;
+    gap: 36px;
+  }
+
+  .global-studio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium Desktop Adjustment for Straight Nav (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .desktop-nav {
+    gap: 20px !important;
+  }
+
+  .desktop-nav .nav-link {
+    font-size: 0.88rem !important;
+    padding: 6px 2px !important;
+  }
+
+  .btn-lume {
+    padding: 9px 18px !important;
+    font-size: 0.88rem !important;
+  }
+
+  .brand-text {
+    font-size: 1.85rem !important;
+  }
+}
+
+/* Tablet & Mobile Breakpoint (<= 1024px)
+   STRICT REQUIREMENT: Display ONLY the logo and hamburger in the header.
+   All navigation items and CTA buttons reside inside the mobile drawer.
+   Logo and hamburger must remain on the same row.
+*/
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .header-actions {
+    display: none !important;
+  }
+
+  .hamburger-btn {
+    display: flex !important;
+  }
+
+  .lume-navbar {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  /* Home Split Hero */
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .hero-panel-visual {
+    min-height: 440px;
+  }
+
+  /* About Page Collage Grid */
+  .about-collage-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .chapter-spread-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  /* Services Page Layout */
+  .services-layout-split {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .services-sidebar-nav {
+    position: static;
+    top: auto;
+  }
+
+  .artifact-inspection-tray {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* How We Work Page Stepper */
+  .roadmap-week-ribbon {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .roadmap-week-ribbon::before {
+    display: none;
+  }
+
+  .stepper-sticky-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .contrast-ledger-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  /* Careers Page */
+  .fellowship-hero-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .photo-journal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Contact Page */
+  .global-studio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .partner-concierge-strip {
+    grid-template-columns: 1fr;
+    padding: 36px 32px;
+  }
+
+  /* Grids & Cards */
+  .practice-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .manifesto-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .case-study-split-card {
+    grid-template-columns: 1fr;
+  }
+
+  .case-study-split-card.reverse {
+    direction: ltr;
+  }
+
+  .case-study-content {
+    padding: 40px 32px;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+  }
+
+  .lume-cta-card {
+    grid-template-columns: 1fr;
+    padding: 56px 40px;
+  }
+
+  .lume-cta-card-actions {
+    align-items: flex-start;
+  }
+}
+
+/* Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 120px 0 60px;
+  }
+
+  .about-hero-section {
+    padding: 120px 0 50px;
+  }
+
+  .services-hero-index {
+    padding: 120px 0 50px;
+  }
+
+  .inner-hero {
+    padding: 120px 0 50px;
+  }
+
+  .hero-panel-text {
+    padding: 36px 24px;
+    border-radius: var(--radius-xl);
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .about-headline-huge {
+    font-size: 2.6rem;
+  }
+
+  .hero-panel-visual {
+    min-height: 360px;
+    border-radius: var(--radius-xl);
+  }
+
+  .hero-meta-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-card {
+    padding: 32px 24px;
+    border-radius: var(--radius-lg);
+  }
+
+  .manifesto-banner {
+    padding: 40px 24px;
+    border-radius: var(--radius-xl);
+  }
+
+  .manifesto-quote {
+    font-size: 2rem;
+  }
+
+  .manifesto-stats-row {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .photo-journal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .global-studio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-panel {
+    padding: 40px 24px;
+    border-radius: var(--radius-xl);
+  }
+
+  .testimonial-body {
+    font-size: 1.6rem;
+  }
+
+  .lume-cta-card {
+    padding: 40px 24px;
+    border-radius: var(--radius-xl);
+  }
+
+  .footer-top-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .calc-options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-calculator-panel {
+    padding: 32px 20px;
+  }
+
+  .service-deepdive-module {
+    padding: 36px 24px;
+  }
+
+  .work-hero-roadmap {
+    padding: 36px 24px;
+  }
+
+  .stepper-left-pane, .stepper-right-pane {
+    padding: 32px 24px;
+  }
+
+  .ledger-column-legacy, .ledger-column-lume {
+    padding: 32px 24px;
+  }
+}
+
+/* Small Mobile (<= 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.3rem;
+  }
+
+  .about-headline-huge {
+    font-size: 2.2rem;
+  }
+
+  .section-headline {
+    font-size: 2.1rem;
+  }
+
+  .btn-lume {
+    width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fellowship-photo-primary {
+    width: 100%;
+    height: 280px;
+  }
+
+  .fellowship-photo-badge {
+    position: static;
+    width: 100%;
+    margin-top: 16px;
+  }
+}
